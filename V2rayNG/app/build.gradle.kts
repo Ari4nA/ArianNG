@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.MahsaNet.NikaNG"
+        applicationId = "com.ARiNaLiz.ArinNG"
         minSdk = 21
         targetSdk = 34
         versionCode = 583
@@ -67,7 +67,7 @@ android {
                 else
                     "universal"
 
-                output.outputFileName = "NikaNG_${variant.versionName}_${abi}.apk"
+                output.outputFileName = "ArianNG_${variant.versionName}_${abi}.apk"
                 if (versionCodes.containsKey(abi)) {
                     output.versionCodeOverride = (1000000 * versionCodes[abi]!!).plus(variant.versionCode)
                 } else {
