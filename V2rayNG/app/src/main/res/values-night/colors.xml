@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_fab_active">#000000</color>
+    <color name="color_fab_active">#11649c</color>
     <color name="color_fab_inactive">#000000</color>
     <color name="color_secondary">#BDBDBD</color>
 
