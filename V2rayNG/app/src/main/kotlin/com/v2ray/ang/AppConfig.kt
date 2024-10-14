@@ -101,7 +101,7 @@ object AppConfig {
     const val v2rayNGPrivacyPolicy = "https://raw.githubusercontent.com/ArianA/ArianNG/master/CR.md"
     const val PromotionUrl = "aHR0cHM6Ly9naXRodWIuY29tL0FyaTRuQQ=="
     const val GeoUrl = "https://github.com/Chocolate4U/Iran-v2ray-rules/releases/latest/download/"
-    const val TgChannelUrl = "https://t.me/github_2dust"
+    const val TgChannelUrl = "https://t.me/Ari4nAl"
     const val DelayTestUrl = "https://www.gstatic.com/generate_204"
     const val DelayTestUrl2 = "https://www.google.com/generate_204"
 
