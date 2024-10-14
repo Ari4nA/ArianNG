@@ -106,8 +106,8 @@ object AppConfig {
     const val DelayTestUrl2 = "https://www.google.com/generate_204"
 
     /** DNS server addresses. */
-    const val DNS_PROXY = "8.8.8.8"
-    const val DNS_DIRECT = "8.8.8.8"
+    const val DNS_PROXY = "https://8.8.8.8/dns-query"
+    const val DNS_DIRECT = "https://8.8.8.8/dns-query"
     const val DNS_VPN = "8.8.8.8"
 
     /** Ports and addresses for various services. */
