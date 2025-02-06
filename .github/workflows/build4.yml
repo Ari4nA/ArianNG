@@ -76,7 +76,7 @@ jobs:
         path: ${{ github.workspace }}/V2rayNG/app/build/outputs/apk/*/release/*x86*.apk
 
     
-    - name: Upload NikaNG to release
+    - name: Upload ArianNG to release
       uses: svenstaro/upload-release-action@v2
       if: github.event.inputs.release_tag != ''
       with:
