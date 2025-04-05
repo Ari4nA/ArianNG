@@ -188,7 +188,7 @@ class SettingsActivity : BaseActivity() {
             muxXudpConcurrency?.summary = MmkvManager.decodeSettingsString(AppConfig.PREF_MUX_XUDP_CONCURRENCY, "8")
 
             updateFragment(MmkvManager.decodeSettingsBool(AppConfig.PREF_FRAGMENT_ENABLED, false))
-            fragment?.isChecked = MmkvManager.decodeSettingsBool(AppConfig.PREF_FRAGMENT_ENABLED, true)
+            fragment?.isChecked = MmkvManager.decodeSettingsBool(AppConfig.PREF_FRAGMENT_ENABLED, false)
             fragmentPackets?.summary = MmkvManager.decodeSettingsString(AppConfig.PREF_FRAGMENT_PACKETS, "tlshello")
             fragmentLength?.summary = MmkvManager.decodeSettingsString(AppConfig.PREF_FRAGMENT_LENGTH, "250-360")
             fragmentInterval?.summary = MmkvManager.decodeSettingsString(AppConfig.PREF_FRAGMENT_INTERVAL, "20-40")
